@@ -17,7 +17,7 @@ public class TAsk3 {
         list.add("Brown");
         colors.addAll(list);
         System.out.println(colors);
-        Iterator<String> color = colors.iterator();
+        Iterator<String> color = colors.descendingIterator();
         while(color.hasNext()){
             System.out.println(color.next());
         }
